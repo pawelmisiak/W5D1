@@ -1,0 +1,55 @@
+/* PHASE 1: Header */
+body {
+  font-weight: bold;
+  font-family: sans-serif;
+  width: auto;
+  height: inherit;
+}
+
+header {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: sp ace-between;
+  /* padding: 11px; */
+}
+
+.nav_left {
+  display: inline-block;
+  padding: 11px;
+}
+
+.nav_left a:hover {
+  background-color: black;
+}
+
+.nav_left a {
+  /* display: inline-block; */
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 20px;
+  margin-left: 80px;
+  padding: 11px;
+}
+
+.nav_right {
+  display: inline-block;
+  padding-right: 80px;
+}
+
+.nav_right ul li {
+  display: inline-block;
+  margin: 0;
+  /* border-left: 1px solid white; */
+  border-right: 1px solid white;
+  padding: 11px;
+}
+
+.nav_right ul li:hover {
+  background-color: black;
+}
+
+.nav_right ul li:first-child {
+  border-left: 1px solid white;
+}
+
